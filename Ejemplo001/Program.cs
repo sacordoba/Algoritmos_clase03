@@ -13,10 +13,16 @@ namespace Ejemplo001
         {
             Console.WriteLine("Hola Mundo");
             string cadena = "Saludo 2";
-            Saludo();
+
+            Saludo(cadena);
             //Thread.Sleep(10000);
             Console.ReadKey();
 
+        }
+
+        private static void Saludo(string cadena)
+        {
+            Console.WriteLine(cadena);
         }
 
         private static void Saludo()
