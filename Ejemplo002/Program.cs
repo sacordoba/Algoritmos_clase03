@@ -20,6 +20,8 @@ namespace Ejemplo002
                 lista.Add(numeros1[3 - i]);
             }
 
+            //lista.Remove(30);
+
             foreach (int item in lista)
             {
                 Console.WriteLine("El nº es: " + item);
